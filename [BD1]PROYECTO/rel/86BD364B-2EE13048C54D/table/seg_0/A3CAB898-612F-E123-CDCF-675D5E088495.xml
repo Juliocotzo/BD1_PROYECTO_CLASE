@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3CAB898-612F-E123-CDCF-675D5E088495" name="RESPUESTA">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>465BF771-404D-D8EA-C88F-395D2735098B</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_respuesta" id="14755EA3-93DE-6327-B35D-56B2E09C4494">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>7DA9CB1B-7632-367A-AA79-55339A02536C</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="respuesta" id="2CDFB529-DB15-B6CE-5D90-AF0B0EECF9EC">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>8F5DDCE5-D1E4-4623-6AC6-A272D2E57A4E</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREGUNTA_id_pregunta" id="410B4FF5-621E-8584-F7F2-012993BBD8B7">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>E7C458CC-B375-89D3-F493-9F04994E852B</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAA7CB53-0338-1892-3B15-86D659680BDF" referredColumn="99C30519-57EA-4EE0-35D6-7469A22F822D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C8D1667-87E4-46B2-D8E0-E69A34F87D9A" name="RESPUESTA_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>64231BF7-7DF5-546B-5F4E-CE17F14B5FD9</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14755EA3-93DE-6327-B35D-56B2E09C4494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="067E8392-847C-5B1E-DD7F-D3D324CC695A" name="RESPUESTA_PREGUNTA_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>4B64E1E4-9BD1-C162-88C8-4E5CC7CAECCB</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410B4FF5-621E-8584-F7F2-012993BBD8B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

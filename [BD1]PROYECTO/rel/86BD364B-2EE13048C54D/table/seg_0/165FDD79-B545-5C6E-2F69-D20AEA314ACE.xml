@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="165FDD79-B545-5C6E-2F69-D20AEA314ACE" name="AREA">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>C76E8897-D0E5-F26D-7731-88D728342173</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_area" id="90374E92-4C49-6D8B-203F-4728B8AFBA99">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>4596291B-076C-88E2-0E5D-078E227D25AE</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="94701693-2B9C-0A4C-9124-850C3A004AE8">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>5CAFFDBA-3C56-2828-B654-A57B2310A5C0</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ranking" id="D8B13A26-FA47-CE3C-652F-5F8E9291C549">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>AEF07082-CABB-45A4-D50F-915A9D55BFB1</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jefe" id="C48ED0EC-8EFD-50E7-4D1D-8C1E194FD60A">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>18468964-6E92-820E-70D4-1CCB76C21362</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72931B16-03CB-1054-9A34-64BABF81C760" name="AREA_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>83606425-0E98-6778-12C7-57B9BD123E89</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90374E92-4C49-6D8B-203F-4728B8AFBA99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

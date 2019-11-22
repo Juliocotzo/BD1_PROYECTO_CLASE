@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39A76826-49E8-A5B8-58F5-51FD1E58C96F" name="REGION">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>BC52BCEA-D194-C623-594D-A43F7021A968</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_region" id="9D41B22E-337E-C6B5-46FD-D7C7FAE04D43">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>B290C4C2-964E-56FB-8FF5-9C79070F7E86</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="64586867-782F-A0BF-714C-B28551AB5398">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>DDD2178D-3847-4E29-C8BE-57855B39E4B8</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_id_region" id="6B53C967-8C9E-95D2-85D5-6B04E705E92E">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>01AB0E04-1CCC-95E8-64C8-E0BB81335ACF</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B50DBB4-4628-A6F2-369D-553C754E4D40" referredColumn="9D41B22E-337E-C6B5-46FD-D7C7FAE04D43"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9855553-FEAB-7084-89F8-6CA2FA2865F2" name="REGION_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>B19D3167-2118-815F-08DD-350B87090F98</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D41B22E-337E-C6B5-46FD-D7C7FAE04D43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0423FEDA-1678-E76A-FD5C-4DF0A900D514" name="REGION_REGION_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>B63E7C25-27F6-8818-B08C-5E6DBBDFF5DB</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B53C967-8C9E-95D2-85D5-6B04E705E92E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

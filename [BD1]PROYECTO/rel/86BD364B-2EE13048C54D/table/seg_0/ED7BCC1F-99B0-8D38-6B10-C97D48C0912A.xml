@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED7BCC1F-99B0-8D38-6B10-C97D48C0912A" name="DETALLE_INVENTO">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>63C229FA-EE6A-F27F-DCEA-B8D216AF6471</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVENTO_id_invento" id="CEFFB6EA-DA8E-13B9-CA02-A46A90F95B8E">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>BFFF5CA7-9F9C-2304-908A-46C1A6A56995</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8394AC94-EF87-2BEC-44CC-0AEE131F9BC7" referredColumn="D9F8CF17-1467-EFA5-BAFB-ADCE767CDC7F"/>
+</associations>
+</Column>
+<Column name="INVENTOR_id_inventor" id="2C07EFB3-6424-9C2C-B2BD-289F1846D7F3">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>2D9EAC0B-B006-BD94-66F6-E772CAA740A2</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F30048DB-9B97-0037-0C69-0D55EE118F0F" referredColumn="774B5247-AB12-41BB-9232-856B9F3D1936"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5512EB15-EE9E-D105-B229-AD72853A1A7B" name="DETALLE_INVENTO_INVENTO_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>AEB6FBD5-710C-2FD4-8FAD-7D7E78B42E4F</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEFFB6EA-DA8E-13B9-CA02-A46A90F95B8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B5BFF4A-E180-FC9D-0867-5EB283CD2EB7" name="DETALLE_INVENTO_INVENTOR_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>FDA4C2A9-A0E7-5FE3-3897-D789820D872B</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C07EFB3-6424-9C2C-B2BD-289F1846D7F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

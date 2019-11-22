@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C47B44E-EE4C-B0BB-949D-F3F2C5D759CB" name="INVENTOR">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>B63C6A9E-2B03-36B8-0694-623B7A207BA3</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inventor" id="774B5247-AB12-41BB-9232-856B9F3D1936">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>EEA90A4F-C03D-C3D0-2BFF-425CD5A8F824</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="17683A55-39A6-EE4C-15D5-41962F029E44">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>F7C4C71F-8D58-4A8A-4CA5-F2E59AA68353</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="EC24F2BB-DA4E-7FAB-D0B7-DF3F5888CA06">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>9629E94E-A93B-037D-94AC-B248B79D670D</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="5BDC5D7D-C113-6D36-033C-3BF55F00A507">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>F14D26DE-4C3D-9BE3-DDB9-B61C86E2A2F8</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_id_pais" id="1252249B-4B92-5B70-F357-79D5A0F71B3E">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>7B5C714A-3F87-C43D-ADD2-0C1E066CEBF2</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6665E889-8D23-C8B8-32CD-DC5F7EB5966A" referredColumn="C523966F-7E1D-57E9-7C57-244132775E3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D331C77-12E5-CC4D-55F3-6E242004A328" name="INVENTOR_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>AB707A08-A27E-0CF7-B041-2B3C66FFF5FD</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="774B5247-AB12-41BB-9232-856B9F3D1936"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08562BAA-16B2-8431-3EDB-2CE94905A54E" name="INVENTOR_PAIS_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>649A520A-F780-8D9B-64D1-46744C3915CC</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1252249B-4B92-5B70-F357-79D5A0F71B3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

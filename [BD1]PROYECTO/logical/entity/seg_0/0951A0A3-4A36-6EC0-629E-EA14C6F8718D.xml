@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0951A0A3-4A36-6EC0-629E-EA14C6F8718D" name="PROFESIONAL">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:24:44 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_profesional" id="9D80B348-505F-E99F-6EB0-C67C771A5C6F">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:24:50 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="342C8A2F-C4E2-7616-376A-F7DEA066F8DE">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:24:56 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="00A3E685-4659-A105-9796-AED14AD90B0A">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:25:21 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="D6FF2814-7EE2-D379-C2D3-FFC754B72C09">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:25:33 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comision" id="00EEBE3E-BD43-A8B1-ABE4-5BD57AAF59D4">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:25:54 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="87A4B1DA-F322-2222-B695-753EC4C33F68">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:26:08 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_area" id="6501C2FE-0895-4495-616A-75F4E47E1B57">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 06:03:10 UTC</createdTime>
+<generatorID>C3F1F5C7-98D8-A56F-A8AE-237BB0ED7315</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<referedAttribute>4596291B-076C-88E2-0E5D-078E227D25AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F684074E-4289-61BE-29D7-FCD403130675" name="PROFESIONAL PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:25:13 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D80B348-505F-E99F-6EB0-C67C771A5C6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

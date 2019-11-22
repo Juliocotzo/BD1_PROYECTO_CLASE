@@ -1,0 +1,16 @@
+UPDATE `proyecto`.`REGION` SET `id_region1` = '1' WHERE (`id_region` = '6');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '1' WHERE (`id_region` = '7');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '1' WHERE (`id_region` = '8');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '1' WHERE (`id_region` = '9');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '2' WHERE (`id_region` = '10');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '2' WHERE (`id_region` = '11');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '2' WHERE (`id_region` = '12');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '3' WHERE (`id_region` = '13');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '3' WHERE (`id_region` = '14');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '4' WHERE (`id_region` = '15');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '4' WHERE (`id_region` = '16');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '4' WHERE (`id_region` = '17');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '17' WHERE (`id_region` = '18');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '5' WHERE (`id_region` = '19');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '5' WHERE (`id_region` = '20');
+UPDATE `proyecto`.`REGION` SET `id_region1` = '5' WHERE (`id_region` = '21');

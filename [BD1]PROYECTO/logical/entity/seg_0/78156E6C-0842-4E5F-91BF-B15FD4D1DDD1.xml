@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78156E6C-0842-4E5F-91BF-B15FD4D1DDD1" name="FRONTERA">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:17:24 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pais" id="5A043E57-4DBD-1C1D-4D44-62FDF7639C8C">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:34:51 UTC</createdTime>
+<generatorID>E335A829-88E2-D36E-BD15-0F14F0D6ED97</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<referedAttribute>CC5D5BF0-BAFF-EC63-25E4-39E2620A12C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais1" id="F16B048E-A6A5-E118-DD12-EC6904224813">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:34:55 UTC</createdTime>
+<generatorID>6AB1AA42-2377-7869-6164-EC03C90966BA</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<referedAttribute>CC5D5BF0-BAFF-EC63-25E4-39E2620A12C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="872297F8-2631-27F9-E1EE-E4EA2C033490" name="FRONTERA PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:20:03 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

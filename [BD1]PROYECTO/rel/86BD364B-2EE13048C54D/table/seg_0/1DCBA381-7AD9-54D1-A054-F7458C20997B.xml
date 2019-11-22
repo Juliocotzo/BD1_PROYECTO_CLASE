@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DCBA381-7AD9-54D1-A054-F7458C20997B" name="ESTUDIO">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>4F34C978-CC89-EB66-A9AC-06F8F9CDCF9C</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INVENTO_id_invento" id="3F07FD05-83B9-E4EA-E531-99DBC65BB433">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>C5863E77-EFC7-206B-D49A-DC8BDDE764D2</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2AA50BF-5D0B-0EDD-E7EF-0D58C00CEBEA" referredColumn="D9F8CF17-1467-EFA5-BAFB-ADCE767CDC7F"/>
+</associations>
+</Column>
+<Column name="PROFESIONAL_id_profesional" id="525E2A94-41D6-2EBB-0329-92F7802F2BCF">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>29D015BF-8D69-8567-2B4B-0D675D1A349B</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A07B3C07-4C51-80CE-5F70-4C622F001791" referredColumn="0CC10A30-BDBB-96F0-5B7C-D81B6287EB46"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="229E18A4-9230-0FF7-6C1F-65BEFB4322FF" name="ESTUDIO_INVENTO_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>79862CFD-8EA9-832C-CD88-AF242B6B6A2D</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F07FD05-83B9-E4EA-E531-99DBC65BB433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E27F768-D949-1AF5-F091-B78A2462430B" name="ESTUDIO_PROFESIONAL_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>A26C1A8D-859B-6141-4E6B-FF07E012D95A</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="525E2A94-41D6-2EBB-0329-92F7802F2BCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

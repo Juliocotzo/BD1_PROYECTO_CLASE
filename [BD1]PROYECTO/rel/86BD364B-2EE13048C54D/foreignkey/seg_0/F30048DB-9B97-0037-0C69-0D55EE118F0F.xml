@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F30048DB-9B97-0037-0C69-0D55EE118F0F" containerWithKeyObject="ED7BCC1F-99B0-8D38-6B10-C97D48C0912A" localFKIndex="5B5BFF4A-E180-FC9D-0867-5EB283CD2EB7" name="DETALLE_INVENTO_INVENTOR_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 22:38:59 UTC</createdTime>
+<generatorID>FDA4C2A9-A0E7-5FE3-3897-D789820D872B</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<referredTableLongName>INVENTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1C47B44E-EE4C-B0BB-949D-F3F2C5D759CB</referredTableID>
+<keyObject>8D331C77-12E5-CC4D-55F3-6E242004A328</keyObject>
+<referredKeyID>8D331C77-12E5-CC4D-55F3-6E242004A328</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_inventor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

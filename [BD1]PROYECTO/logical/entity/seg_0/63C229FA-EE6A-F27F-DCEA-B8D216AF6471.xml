@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63C229FA-EE6A-F27F-DCEA-B8D216AF6471" name="DETALLE_INVENTO">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:16:08 UTC</createdTime>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_invento" id="BFFF5CA7-9F9C-2304-908A-46C1A6A56995">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:30:28 UTC</createdTime>
+<generatorID>AEB6FBD5-710C-2FD4-8FAD-7D7E78B42E4F</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<referedAttribute>58E00A70-486B-7A71-BDD5-D007630414C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_inventor" id="2D9EAC0B-B006-BD94-66F6-E772CAA740A2">
+<createdBy>julio</createdBy>
+<createdTime>2019-10-30 05:30:32 UTC</createdTime>
+<generatorID>FDA4C2A9-A0E7-5FE3-3897-D789820D872B</generatorID>
+<ownerDesignName>[BD1]PROYECTO</ownerDesignName>
+<engineerTo>
+<item key="86BD364B-ABC8-4C8F-C5C2-2EE13048C54D" value="true"/>
+</engineerTo>
+<referedAttribute>EEA90A4F-C03D-C3D0-2BFF-425CD5A8F824</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
